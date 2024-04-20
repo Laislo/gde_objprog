@@ -1,2 +1,3 @@
-Név:
-Neptunkód:
+Neptunkód: R62400
+Név: L. László
+Szak: Mérnök Informatika
