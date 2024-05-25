@@ -82,11 +82,11 @@ szalloda.szoba_letrehozas(EgyagyasSzoba("10","Zuhany",11000))
 szalloda.szoba_letrehozas(KetagyasSzoba("100","Jacuzzi","Minibár",20000))
 
 # Foglalások létrehozása
-szalloda.foglalas("1", date.today() + timedelta(days=2))
-szalloda.foglalas("10", date.today() + timedelta(days=3))
-szalloda.foglalas("100", date.today() + timedelta(days=4))
-szalloda.foglalas("1", date.today() + timedelta(days=5))
-szalloda.foglalas("10", date.today() + timedelta(days=6))
+szalloda.foglalas("1", datetime(2024, 5, 30))
+szalloda.foglalas("10", datetime(2024, 5, 31))
+szalloda.foglalas("100", datetime(2024, 6, 1))
+szalloda.foglalas("1", datetime(2024, 6, 2))
+szalloda.foglalas("10", datetime(2024, 6, 3))
 
 # Menü
 while True:
